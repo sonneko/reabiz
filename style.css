@@ -124,7 +124,6 @@ footer {
 }
 
 main {
-    box-shadow: 0px 0px 37px 17px rgba(1,1,1,0.6);
     z-index: 1;
     padding: 20px;
     margin-bottom: 250px;
@@ -241,7 +240,6 @@ section h1 {
 .sns-links-container{
     width: 100%;
     height: 100%;
-    margin-top: 10rem;
     position: relative;
     text-align: right;
 }
@@ -264,10 +262,6 @@ section h1 {
 }
 .sns-links .insta img{
     transform: translateY(-6px);
-}
-.footer-title{
-    position: absolute;
-    top: 7rem;
 }
 .footer-title h1{
     color: white;
