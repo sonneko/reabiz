@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Aoristos - 小学生向け実験セット</title>
+    <link rel="stylesheet" href="style.css?v=4" media="(min-width: 768px)">
+    <link rel="stylesheet" href="mobile.css?v=4" media="(max-width: 767px)">
+</head>
+
+<body>
+    <script>
+        window.onload = () => {
+            const naviEle = document.getElementById("nav");
+            const buyBtn = document.getElementById("buy-btn");
+            setTimeout(() => {
+                buyBtn.style.animation = "fadeIn 0.5s ease-in-out";
+                buyBtn.style.opacity = 1;
+                naviEle.style.opacity = 0.5;
+            }, 2000);
+        }
+    </script>
+    <div class="constant" id="buy-btn" style="opacity: 0;">
+        <a href="buy" class="buy-btn">買う</a>
+    </div>
+    <div class="navigation" id="nav">
+        <h1>Aoristos実験セット</h1>
+        <p>購入へ→</p>
+    </div>
+    <main>
+        <div class="header">
+            <h1 class="header-title">Aoristos実験セット</h1>
+            <p class="header-parag">現役の大阪星光学院の高校生が作った実験セット！！</p>
+            <a href="" class="header-buyBtn">購入する</a>
+        </div>
+
+        <div class="container">
+
+            <!-- ホームセクション -->
+            <section id="home">
+                <h1>科学の楽しさを、手の中に</h1>
+                <p>Team Aoristosが提供する、小学生向けの楽しい実験セット。<br>好奇心を育て、科学の世界を自分で体験できる。<br>中学校や高校の勉強にも役立つ実験が盛りだくさん！</p>
+                <div class="content">
+                    <div class="image-box">
+                        <img class="img" src="img/science-kit-home.jpg" alt="実験セットの写真">
+                    </div>
+                    <div class="text">
+                        <p>この実験セットは、子どもたちが物理や化学の基礎を理解し、<br>中学・高校での学習にも役立てることができます。<br>楽しみながら学べることで、科学への興味をさらに引き出します。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- セット内容紹介セクション -->
+            <section id="set-contents">
+                <h1>セット内容紹介</h1>
+
+                <div class="content">
+                    <div class="image-box">
+                        <img class="img" src="img/buoyancy-experiment.jpg" alt="ペットボトル浮力実験">
+                    </div>
+                    <div class="text">
+                        <h3><div>「ペットボトル浮力実験」</div></h3>
+                        <p>息を吹き込むだけでピンポン球が宙に浮かぶ！<br>身近な素材を使って、揚力の不思議を体感しましょう。<br>なぜ、このようになるのかをこのキットを買うことで知ることができます。<br>この実験を行うことで、なぜピンポン玉が浮かぶのかを知ることで飛行機が浮かぶ理由を知ることができます。</p>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="image-box">
+                        <img class="img" src="img/gaming-reaction.jpg" alt="ゲーミング反応実験の様子">
+                    </div>
+                    <div class="text">
+                        <h3><div>「ゲーミング反応」</div></h3>
+                        <p>液体を振ると色が変わる化学反応を楽しむ実験です。色の変化を通して、化学反応の仕組みや反応速度について学べます。実験同士を関連付けることで、さらに深い理解が得られるでしょう。</p>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="image-box">
+                        <img class="img" src="img/fake-ikura.jpg" alt="人工いくら作りの写真">
+                    </div>
+                    <div class="text">
+                        <h3><div>「人工いくら作り」</div></h3>
+                        <p>科学の力を使って人工いくらを作り出す実験です。食品の科学や物質の状態変化を学びながら、楽しく実践できる内容です。新しい発見を通して、化学への興味が深まるはずです。</p>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="image-box">
+                        <img class="img" src="img/litmus-test.jpg" alt="リトマス試験紙の実験">
+                    </div>
+                    <div class="text">
+                        <h3><div>「リトマス試験紙実験」</div></h3>
+                        <p>身の回りのものが酸性かアルカリ性かを簡単に調べることができる実験です。化学の基礎を学びながら、日常生活に潜む化学の魅力を発見することができます。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 動画チャンネルセクション -->
+            <section id="video-channel">
+                <h1>実験動画</h1>
+                <div class="content">
+                    <div class="image-box">
+                        <img class="img" src="img/youtube-thumbnail.jpg" alt="YouTube動画のサムネイル">
+                    </div>
+                    <div class="text">
+                        <p>YouTubeにて、実験の手順やコツをわかりやすく紹介しています。動画を見ながら実験を進めることで、実験がさらに理解しやすくなります。新しい視点で実験を楽しんでみましょう。</p>
+                        <a href="https://www.youtube.com/" class="cta-button" target="_blank">動画を見る</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 購入方法セクション -->
+            <section id="purchase">
+                <h1>購入方法</h1>
+                <div class="content">
+                    <div class="image-box">
+                        <img class="img" src="img/purchase-process.jpg" alt="購入方法の説明写真">
+                    </div>
+                    <div class="text">
+                        <p>実験セットの購入は簡単です。オンラインで注文し、数日以内にお届けします。お支払いはクレジットカードや銀行振込に対応しています。すぐに実験を始める準備ができます！</p>
+                        <a href="#" class="cta-button">購入する</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- お問い合わせセクション -->
+            <section id="contact">
+                <h1>お問い合わせ</h1>
+                <div class="content">
+                    <div class="image-box">
+                        <img class="img" src="img/contact-us.jpg" alt="お問い合わせのイメージ">
+                    </div>
+                    <div class="text">
+                        <p>実験セットに関するご質問やサポートが必要な場合は、以下のメールアドレスにご連絡ください。</p>
+                        <p>Email: 5aoristos@reabiz.jp</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 私たちについてセクション -->
+            <section id="about-us">
+                <h1>私たちについて</h1>
+                <hr class="hr">
+                <div class="content">
+                    <div class="image-box">
+                        <img class="img" src="https://sg-amr.github.io/sitemap-bgImage.jpeg" alt="Team Aoristosのメンバー写真">
+                    </div>
+                    <div class="text">
+                        <p>「アオリストス」は、模擬企業グランプリ「リアビズ」における模擬企業です。<br>高校生が主体となって、実際に商品の開発・販売を行っています。<br>応援よろしくお願いいたします。</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- フッター -->
+    <footer>
+        <div class="footer-title">
+            <h1>Aoristos実験セット</h1>
+            <p>最新情報は、SNSもチェック→</p>
+        </div>
+        <div class="sns-links-container">
+            <div class="sns-links">
+                <a href="https://x.com/Team_Aoristos"><img src="image/x-icon.svg" width="80"></a>
+                <a class="insta" href="https://instagram"><img src="image/insta-mark.svg" width="80"></a>
+            </div>
+        </div>
+        <p class="copyright">Copyright © 2023 Team Aoristos. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
